@@ -20,7 +20,7 @@ describe("Tickts", () => {
         const mandatoryFields = {
             firstName: "Victor",
             lastName: "Hugo",
-            email: "Victor.Hugo@teste.com"
+            email: "Victor.Hugo@example.com"
         };
         
         cy.fillMandatoryFields(mandatoryFields);
